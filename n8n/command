@@ -1,0 +1,27 @@
+🧱 Step-by-Step Setup
+🧩 Step 1️⃣ — Create a Project Folder
+mkdir n8n-docker
+cd n8n-docker
+
+⚙️ Step 2️⃣ — Create a Docker Compose File
+notepad docker-compose.yml
+
+
+Paste the yaml code  👇
+
+▶️ Step 3️⃣ — Start n8n
+docker-compose up -d
+
+
+This will download and start the container.
+
+🌐 Step 4️⃣ — Access the Web UI
+
+Open your browser and go to
+👉 http://localhost:5678
+Login credentials:
+Username → admin
+Password → 12345
+
+🧹 Step 5️⃣ — Stop n8n
+docker-compose down
