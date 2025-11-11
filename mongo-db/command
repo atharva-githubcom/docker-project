@@ -1,0 +1,22 @@
+🧱 Step-by-Step Setup
+🧩 Step 1️⃣ — Create a Project Folder
+mkdir mongo-docker-project
+cd mongo-docker-project
+
+👉 This creates and moves you inside the project directory.
+
+⚙️ Step 2️⃣ — Create a Docker Compose File
+notepad docker-compose.yml
+  
+Paste yaml file  on notepad and save👇
+
+▶️ Step 3️⃣ — Run the Containers
+docker-compose up -d
+✅ This will:
+Download MongoDB and Mongo Express images
+Start both containers
+
+🧹 Step 5️⃣ — Stop Containers (When Done)
+docker-compose down
+If you want to delete volumes too (reset data):
+docker-compose down -v
